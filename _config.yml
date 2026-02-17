@@ -18,6 +18,16 @@ keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your o
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
+# -----------------------------------------------------------------------------
+# Multilingual (Polyglot)
+# -----------------------------------------------------------------------------
+
+languages: ["en", "es"]
+default_lang: "en"
+exclude_from_localization: ["assets", "css", "js", "img", "pdf", "json", "fonts", "webfonts"]
+parallel_localization: true
+lang_from_path: true
+
 url: https://josejuancruz.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
@@ -206,6 +216,7 @@ plugins:
   - jekyll-link-attributes
   - jekyll-minifier
   - jekyll-paginate-v2
+  - jekyll-polyglot
   - jekyll-regex-replace
   - jekyll/scholar
   - jekyll-sitemap

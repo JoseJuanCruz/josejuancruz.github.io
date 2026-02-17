@@ -17,6 +17,11 @@ manage_gemfile_lock() {
             rm Gemfile.lock
         fi
     fi
+    # If no Gemfile.lock exists, run bundle install to create one
+    if [ ! -f Gemfile.lock ]; then
+        echo "No Gemfile.lock found, running bundle install..."
+        bundle install
+    fi
 }
 
 start_jekyll() {

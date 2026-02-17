@@ -64,11 +64,7 @@
       "startDate": "2017-08-01",
       "endDate": "2019-10-01",
       "score": "",
-      "courses": [
-        "Artificial Intelligence",
-        "Optimization Algorithms",
-        "Computer Vision"
-      ],
+      "courses": ["Artificial Intelligence", "Optimization Algorithms", "Computer Vision"],
       "summary": "Thesis: Intelligent recovery of the three-dimensional surface of objects using soft computing."
     },
     {
@@ -129,38 +125,17 @@
     {
       "name": "Machine Learning & AI",
       "level": "Advanced",
-      "keywords": [
-        "Python (scikit-learn, Pandas, Numpy)",
-        "Matlab",
-        "R",
-        "Java",
-        "Optimization Algorithms",
-        "Computer Vision"
-      ]
+      "keywords": ["Python (scikit-learn, Pandas, Numpy)", "Matlab", "R", "Java", "Optimization Algorithms", "Computer Vision"]
     },
     {
       "name": "QA Automation",
       "level": "Advanced",
-      "keywords": [
-        "Selenium",
-        "RESTAssured",
-        "TestNG",
-        "Postman",
-        "Jira",
-        "Agile/Scrum"
-      ]
+      "keywords": ["Selenium", "RESTAssured", "TestNG", "Postman", "Jira", "Agile/Scrum"]
     },
     {
       "name": "Databases & Tools",
       "level": "Intermediate",
-      "keywords": [
-        "MySQL",
-        "MongoDB",
-        "GitHub/Bitbucket",
-        "Eclipse",
-        "IntelliJ IDEA",
-        "VS Code"
-      ]
+      "keywords": ["MySQL", "MongoDB", "GitHub/Bitbucket", "Eclipse", "IntelliJ IDEA", "VS Code"]
     }
   ],
   "languages": [
@@ -176,12 +151,7 @@
   "interests": [
     {
       "name": "Artificial Intelligence",
-      "keywords": [
-        "Machine Learning",
-        "Optimization Algorithms",
-        "Computer Vision",
-        "Mathematics"
-      ]
+      "keywords": ["Machine Learning", "Optimization Algorithms", "Computer Vision", "Mathematics"]
     }
   ],
   "projects": [
@@ -201,4 +171,3 @@
     }
   ]
 }
-

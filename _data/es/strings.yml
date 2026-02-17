@@ -1,0 +1,81 @@
+# Spanish UI strings
+
+# Navigation
+nav_about: "acerca"
+nav_projects: "proyectos"
+nav_publications: "publicaciones"
+nav_blog: "blog"
+nav_cv: "cv"
+nav_repositories: "repositorios"
+nav_teaching: "enseñanza"
+nav_books: "libros"
+
+# About page
+about_subtitle: "<a href='#'>Afiliaciones</a>. Dirección. Contactos. Lema. Etc."
+
+# Projects page
+projects_description: "Una creciente colección de tus proyectos interesantes."
+projects_category_work: "trabajo"
+projects_category_fun: "diversión"
+
+# Publications page
+publications_description: "publicaciones por categorías en orden cronológico inverso. generadas por jekyll-scholar."
+
+# CV page
+cv_section_general: "Información General"
+cv_section_education: "Educación"
+cv_section_experience: "Experiencia"
+cv_section_projects: "Proyectos de Código Abierto"
+cv_section_honors: "Honores y Premios"
+cv_section_interests: "Intereses Académicos"
+cv_section_other: "Otros Intereses"
+cv_full_name: "Nombre Completo"
+cv_date_of_birth: "Fecha de Nacimiento"
+cv_languages: "Idiomas"
+cv_phd: "Doctorado"
+cv_federal_diploma: "Diploma federal de enseñanza"
+cv_professor: "Profesor de Física Teórica"
+cv_visiting_professor: "Profesor Visitante"
+cv_director: "Director"
+cv_associate_professor: "Profesor Asociado de Física Teórica"
+cv_hobbies: "Pasatiempos"
+
+# Blog
+blog_name: "al-folio"
+blog_description: "un tema sencillo y minimalista para académicos"
+latest_posts: "Últimas Entradas"
+
+# News
+announcements: "Noticias"
+
+# Footer
+footer_powered_by: "Impulsado por"
+footer_hosted_by: "Alojado por"
+footer_photos_from: "Fotos de"
+footer_last_updated: "Última actualización"
+
+# Publication buttons
+pub_abstract: "Resumen"
+pub_doi: "DOI"
+pub_arxiv: "arXiv"
+pub_bibtex: "Bib"
+pub_html: "HTML"
+pub_pdf: "PDF"
+pub_supp: "Supl"
+pub_video: "Video"
+pub_blog: "Blog"
+pub_code: "Código"
+pub_poster: "Póster"
+pub_slides: "Diapositivas"
+pub_website: "Sitio Web"
+pub_awarded: "Premiado"
+pub_more_authors: "autor más"
+pub_more_authors_plural: "autores más"
+
+# Search
+search_placeholder: "Buscar"
+search_no_results: "No se encontraron resultados"
+
+# Misc
+toggle_navigation: "Alternar navegación"
+current: "actual"

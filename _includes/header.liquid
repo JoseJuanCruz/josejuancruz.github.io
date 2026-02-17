@@ -135,6 +135,16 @@
               </button>
             </li>
           {% endif %}
+          <!-- Language switcher -->
+          <li class="toggle-container">
+            <button id="lang-toggle" title="Change language">
+              {% if site.active_lang == 'es' %}
+                <a href="{{ page.url | remove_first: '/es' | prepend: site.baseurl }}" class="lang-link">EN</a>
+              {% else %}
+                <a href="{{ page.url | prepend: '/es' | prepend: site.baseurl }}" class="lang-link">ES</a>
+              {% endif %}
+            </button>
+          </li>
         </ul>
       </div>
     </div>

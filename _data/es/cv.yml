@@ -1,0 +1,97 @@
+- title: Información General
+  type: map
+  contents:
+    - name: Nombre Completo
+      value: Albert Einstein
+    - name: Fecha de Nacimiento
+      value: 14 de marzo de 1879
+    - name: Idiomas
+      value: Inglés, Alemán
+
+- title: Educación
+  type: time_table
+  contents:
+    - title: Doctorado
+      institution: Universidad de Zúrich, Zúrich, Suiza
+      year: 1905
+      description:
+        - Descripción 1.
+        - Descripción 2.
+        - title: Descripción 3.
+          contents:
+            - Sub-descripción 1.
+            - Sub-descripción 2.
+    - title: Diploma federal de enseñanza
+      institution: Escuela Politécnica Federal, Zúrich, Suiza
+      year: 1900
+      description:
+        - Descripción 1.
+        - Descripción 2.
+
+- title: Experiencia
+  type: time_table
+  contents:
+    - title: Profesor de Física Teórica
+      institution: Instituto de Estudios Avanzados, Universidad de Princeton
+      year: 1933 - 1955
+      description:
+        - Descripción 1.
+        - Descripción 2.
+        - title: Descripción 3.
+          contents:
+            - Sub-descripción 1.
+            - Sub-descripción 2.
+    - title: Profesor Visitante
+      institution: Instituto de Tecnología de California, Pasadena, California, EE.UU.
+      year: 1933
+      description:
+        - Descripción 1.
+        - Descripción 2.
+
+    - title: Director
+      institution: Instituto Kaiser Wilhelm de Física, Berlín, Alemania.
+      year: 1917-1933
+
+    - title: Profesor de Física Teórica
+      institution: Universidad Carlos-Fernando, Praga, Checoslovaquia
+      year: 1911 - 1917
+      description:
+
+    - title: Profesor Asociado de Física Teórica
+      institution: Universidad de Zúrich, Zúrich, Suiza
+      year: 1909 - 1911
+
+- title: Proyectos de Código Abierto
+  type: time_table
+  contents:
+    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+      year: 2015-ahora
+      description: Un tema Jekyll hermoso, simple, limpio y receptivo para académicos.
+
+- title: Honores y Premios
+  type: time_table
+  contents:
+    - year: 1921
+      items:
+        - Premio Nobel de Física
+        - Medalla Matteucci
+    - year: 2029
+      items:
+        - Medalla Max Planck
+
+- title: Intereses Académicos
+  type: nested_list
+  contents:
+    - title: Tema 1.
+      items:
+        - Descripción 1.
+        - Descripción 2.
+    - title: Tema 2.
+      items:
+        - Descripción 1.
+        - Descripción 2.
+
+- title: Otros Intereses
+  type: list
+  contents:
+    - <u>Pasatiempos:</u> Pasatiempo 1, Pasatiempo 2, etc.

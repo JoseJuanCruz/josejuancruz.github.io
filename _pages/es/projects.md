@@ -1,16 +1,16 @@
 ---
 layout: page
-title: projects
+title: proyectos
 permalink: /projects/
-lang: en
-description: A growing collection of your cool projects.
+lang: es
+description: Una creciente colección de tus proyectos interesantes.
 nav: true
 nav_order: 3
 display_categories: [work, fun]
 horizontal: false
 ---
 
-<!-- pages/projects.md -->
+<!-- pages/es/projects.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
