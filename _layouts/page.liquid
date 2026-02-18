@@ -10,16 +10,36 @@ layout: default
 
 <div class="post">
   <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-description">{{ page.description }}</p>
+    {% if page.title_es %}
+      <h1 class="post-title content-en">{{ page.title }}</h1>
+      <h1 class="post-title content-es" style="display: none;">{{ page.title_es }}</h1>
+    {% else %}
+      <h1 class="post-title">{{ page.title }}</h1>
+    {% endif %}
+    {% if page.description_es %}
+      <p class="post-description content-en">{{ page.description }}</p>
+      <p class="post-description content-es" style="display: none;">{{ page.description_es }}</p>
+    {% else %}
+      <p class="post-description">{{ page.description }}</p>
+    {% endif %}
   </header>
 
   <article>
-    {{ content }}
+    {% if page.content_es %}
+      <div class="content-en">
+        {{ content }}
+      </div>
+      <div class="content-es" style="display: none;">
+        {{ page.content_es | markdownify }}
+      </div>
+    {% else %}
+      {{ content }}
+    {% endif %}
   </article>
 
   {% if page.related_publications %}
-    <h2>References</h2>
+    <h2 class="content-en">References</h2>
+    <h2 class="content-es" style="display: none;">Referencias</h2>
     <div class="publications">
       {% bibliography --cited_in_order %}
     </div>

@@ -1,14 +1,25 @@
 {% capture footer_contents %}
-  &copy; Copyright {{ site.time | date: '%Y' }}
-  {{ site.first_name }}
-  {{ site.middle_name }}
-  {{ site.last_name }}. {{ site.footer_text }}
-  {% if site.impressum_path %}
-    <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
-  {% endif %}
-  {% if site.last_updated %}
-    Last updated: {{ 'now' | date: '%B %d, %Y' }}.
-  {% endif %}
+  <span class="content-en">
+    &copy; Copyright {{ site.time | date: '%Y' }}
+    {{ site.first_name }}
+    {{ site.middle_name }}
+    {{ site.last_name }}. {{ site.footer_text }}
+    {% if site.impressum_path %}
+      <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
+    {% endif %}
+    {% if site.last_updated %}
+      <span data-i18n="last_updated">Last updated:</span> {{ 'now' | date: '%B %d, %Y' }}.
+    {% endif %}
+  </span>
+  <span class="content-es" style="display: none;">
+    &copy; {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}.
+    Desarrollado con <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> con el tema <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
+    Alojado en <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+    Fotos de <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+    {% if site.last_updated %}
+      <span data-i18n="last_updated">Última actualización:</span> {{ 'now' | date: '%d de %B de %Y' }}.
+    {% endif %}
+  </span>
 {% endcapture %}
 
 {% if site.footer_fixed %}

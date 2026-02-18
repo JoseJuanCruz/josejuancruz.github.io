@@ -11,7 +11,12 @@ layout: default
         {{ site.title }}
       {% endif %}
     </h1>
-    <p class="desc">{{ page.subtitle }}</p>
+    {% if page.subtitle_es %}
+      <p class="desc content-en">{{ page.subtitle }}</p>
+      <p class="desc content-es" style="display: none;">{{ page.subtitle_es }}</p>
+    {% else %}
+      <p class="desc">{{ page.subtitle }}</p>
+    {% endif %}
   </header>
 
   <article>
@@ -42,24 +47,33 @@ layout: default
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+      <h2 class="content-en">
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit" data-i18n="news">news</a>
+      </h2>
+      <h2 class="content-es" style="display: none;">
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit" data-i18n="news">noticias</a>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
 
     <!-- Latest posts -->
     {% if page.latest_posts and page.latest_posts.enabled %}
-      <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
+      <h2 class="content-en">
+        <a href="{{ '/blog/' | relative_url }}" style="color: inherit" data-i18n="latest_posts">latest posts</a>
+      </h2>
+      <h2 class="content-es" style="display: none;">
+        <a href="{{ '/blog/' | relative_url }}" style="color: inherit" data-i18n="latest_posts">últimas entradas</a>
       </h2>
       {% include latest_posts.liquid %}
     {% endif %}
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+      <h2 class="content-en">
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit" data-i18n="selected_publications">selected publications</a>
+      </h2>
+      <h2 class="content-es" style="display: none;">
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit" data-i18n="selected_publications">publicaciones destacadas</a>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}

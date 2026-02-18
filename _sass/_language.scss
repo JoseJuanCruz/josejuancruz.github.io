@@ -1,0 +1,92 @@
+/******************************************************************************
+ * Language Toggle
+ ******************************************************************************/
+
+// Language toggle button - styled similar to theme toggle
+#language-toggle {
+  background: none;
+  border: none;
+  color: var(--global-text-color);
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  transition: color 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+
+  &:hover {
+    color: var(--global-theme-color);
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+// Language toggle container
+.language-toggle-container {
+  display: flex;
+  align-items: center;
+  margin-left: 0.5rem;
+}
+
+// Ensure proper alignment with other toggle buttons
+.navbar-nav {
+  .language-toggle-container {
+    @media (max-width: 575px) {
+      margin-left: 0;
+      padding: 0.5rem 1rem;
+    }
+  }
+}
+
+// Bilingual content visibility
+.content-en,
+.content-es {
+  display: none;
+}
+
+// Show content based on current language
+html[lang="en"] {
+  .content-en {
+    display: block;
+  }
+}
+
+html[lang="es"] {
+  .content-es {
+    display: block;
+  }
+}
+
+// Inline bilingual content
+.content-en-inline,
+.content-es-inline {
+  display: none;
+}
+
+html[lang="en"] {
+  .content-en-inline {
+    display: inline;
+  }
+}
+
+html[lang="es"] {
+  .content-es-inline {
+    display: inline;
+  }
+}
+
+// For flex/grid containers
+html[lang="en"] {
+  .content-en-flex {
+    display: flex;
+  }
+}
+
+html[lang="es"] {
+  .content-es-flex {
+    display: flex;
+  }
+}

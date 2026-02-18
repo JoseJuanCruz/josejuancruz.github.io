@@ -49,7 +49,12 @@
           <!-- About -->
           <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
             <a class="nav-link" href="{{ '/' | relative_url }}">
-              {{- about_title }}
+              <span class="content-en">{{- about_title }}</span>
+              <span class="content-es" style="display: none;">
+                {%- if about_title == 'about' -%}sobre mí
+                {%- else -%}{{ about_title }}
+                {%- endif -%}
+              </span>
               {% if page.permalink == '/' %}
                 <span class="sr-only">(current)</span>
               {% endif %}
@@ -77,7 +82,13 @@
                     aria-haspopup="true"
                     aria-expanded="false"
                   >
-                    {{- p.title }}
+                    <span class="content-en">{{- p.title }}</span>
+                    <span class="content-es" style="display: none;">
+                      {%- if p.title == 'submenus' -%}submenús
+                      {%- elsif p.title_es -%}{{ p.title_es }}
+                      {%- else -%}{{ p.title }}
+                      {%- endif -%}
+                    </span>
                     {% if page.title == p.title or has_active_child %}
                       <span class="sr-only">(current)</span>
                     {% endif %}
@@ -91,7 +102,13 @@
                           class="dropdown-item {% if page.title == child.title %}active{% endif %}"
                           href="{% if child.permalink contains '://' %}{{ child.permalink }}{% else %}{{ child.permalink | relative_url }}{% endif %}"
                         >
-                          {{- child.title -}}
+                          <span class="content-en">{{- child.title -}}</span>
+                          <span class="content-es" style="display: none;">
+                            {%- if child.title == 'bookshelf' -%}biblioteca
+                            {%- elsif child.title_es -%}{{ child.title_es }}
+                            {%- else -%}{{ child.title }}
+                            {%- endif -%}
+                          </span>
                         </a>
                       {% endif %}
                     {% endfor %}
@@ -108,7 +125,18 @@
                     {%- assign url = p.url -%}
                   {%- endif %}
                   <a class="nav-link" href="{{ url | relative_url }}">
-                    {{- p.title }}
+                    <span class="content-en">{{- p.title }}</span>
+                    <span class="content-es" style="display: none;">
+                      {%- if p.title == 'blog' -%}blog
+                      {%- elsif p.title == 'publications' -%}publicaciones
+                      {%- elsif p.title == 'projects' -%}proyectos
+                      {%- elsif p.title == 'repositories' -%}repositorios
+                      {%- elsif p.title == 'cv' -%}cv
+                      {%- elsif p.title == 'teaching' -%}docencia
+                      {%- elsif p.title_es -%}{{ p.title_es }}
+                      {%- else -%}{{ p.title }}
+                      {%- endif -%}
+                    </span>
                     {% if page.url contains p.url %}
                       <span class="sr-only">(current)</span>
                     {% endif %}
@@ -121,7 +149,7 @@
             <!-- Search -->
             <li class="nav-item">
               <button id="search-toggle" title="Search" onclick="openSearchModal()">
-                <span class="nav-link">ctrl k <i class="ti ti-search"></i></span>
+                <span class="nav-link" data-i18n="ctrl_k">ctrl k</span> <i class="ti ti-search"></i>
               </button>
             </li>
           {% endif %}
@@ -135,6 +163,12 @@
               </button>
             </li>
           {% endif %}
+          <!-- Language toggle -->
+          <li class="language-toggle-container toggle-container">
+            <button id="language-toggle" title="Switch language">
+              ES
+            </button>
+          </li>
         </ul>
       </div>
     </div>

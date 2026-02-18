@@ -8,14 +8,14 @@
       {% endif %}
     >
       <table class="table table-sm table-borderless">
-        {% assign news = site.news | reverse %}
+        {% assign news = site.news | where: "lang", "en" | reverse %}
         {% if include.limit and page.announcements.limit %}
           {% assign news_limit = page.announcements.limit %}
         {% else %}
           {% assign news_limit = news_size %}
         {% endif %}
         {% for item in news limit: news_limit %}
-          <tr>
+          <tr class="content-en">
             <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
             <td>
               {% if item.inline %}
@@ -26,9 +26,24 @@
             </td>
           </tr>
         {% endfor %}
+        
+        {% assign news_es = site.news | where: "lang", "es" | reverse %}
+        {% for item in news_es limit: news_limit %}
+          <tr class="content-es" style="display: none;">
+            <th scope="row" style="width: 20%">{{ item.date | date: '%d %b %Y' }}</th>
+            <td>
+              {% if item.inline %}
+                {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+              {% else %}
+                <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title_es | default: item.title }}</a>
+              {% endif %}
+            </td>
+          </tr>
+        {% endfor %}
       </table>
     </div>
   {% else %}
-    <p>No news so far...</p>
+    <p class="content-en" data-i18n="no_news">No news so far...</p>
+    <p class="content-es" data-i18n="no_news" style="display: none;">Aún no hay noticias...</p>
   {% endif %}
 </div>
