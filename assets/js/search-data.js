@@ -83,6 +83,17 @@ ninja.data = [{
             window.location.href = "/blog/2025/plotly/";
           
         },
+      },{id: "post-una-entrada-con-plotly-js",
+        
+          title: "una entrada con plotly.js",
+        
+        description: "así es como se vería el código plotly.js incluido en una entrada",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/plotly.es/";
+          
+        },
       },{id: "post-a-post-with-image-galleries",
         
           title: "a post with image galleries",
@@ -92,6 +103,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2024/photo-gallery/";
+          
+        },
+      },{id: "post-una-entrada-con-galerías-de-imágenes",
+        
+          title: "una entrada con galerías de imágenes",
+        
+        description: "así es como se vería la galería de fotos incluida en una entrada",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/photo-gallery.es/";
           
         },
       },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
@@ -116,6 +138,17 @@ ninja.data = [{
             window.location.href = "/blog/2024/tabs/";
           
         },
+      },{id: "post-a-post-with-tabs",
+        
+          title: "a post with tabs",
+        
+        description: "this is what included tabs in a post could look like",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/tabs.es/";
+          
+        },
       },{id: "post-a-post-with-typograms",
         
           title: "a post with typograms",
@@ -125,6 +158,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2024/typograms/";
+          
+        },
+      },{id: "post-una-entrada-con-tipogramas",
+        
+          title: "una entrada con tipogramas",
+        
+        description: "así es como se vería el código de tipogramas incluido en una entrada",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/typograms.es/";
           
         },
       },{id: "post-a-post-that-can-be-cited",
@@ -138,6 +182,17 @@ ninja.data = [{
             window.location.href = "/blog/2024/post-citation/";
           
         },
+      },{id: "post-una-entrada-que-puede-ser-citada",
+        
+          title: "una entrada que puede ser citada",
+        
+        description: "así es como se vería una entrada que puede ser citada",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/post-citation.es/";
+          
+        },
       },{id: "post-a-post-with-pseudo-code",
         
           title: "a post with pseudo code",
@@ -147,6 +202,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2024/pseudocode/";
+          
+        },
+      },{id: "post-una-entrada-con-pseudocódigo",
+        
+          title: "una entrada con pseudocódigo",
+        
+        description: "así es como se vería el pseudocódigo incluido en una entrada",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/pseudocode.es/";
           
         },
       },{id: "post-a-post-with-code-diff",
@@ -160,6 +226,17 @@ ninja.data = [{
             window.location.href = "/blog/2024/code-diff/";
           
         },
+      },{id: "post-una-entrada-con-diferencias-de-código",
+        
+          title: "una entrada con diferencias de código",
+        
+        description: "así es como puedes mostrar diferencias de código",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/code-diff.es/";
+          
+        },
       },{id: "post-a-post-with-advanced-image-components",
         
           title: "a post with advanced image components",
@@ -169,6 +246,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2024/advanced-images/";
+          
+        },
+      },{id: "post-una-entrada-con-componentes-de-imagen-avanzados",
+        
+          title: "una entrada con componentes de imagen avanzados",
+        
+        description: "así es como se verían los componentes de imagen avanzados incluidos en una entrada",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/advanced-images.es/";
           
         },
       },{id: "post-a-post-with-vega-lite",
@@ -182,6 +270,17 @@ ninja.data = [{
             window.location.href = "/blog/2024/vega-lite/";
           
         },
+      },{id: "post-una-entrada-con-vega-lite",
+        
+          title: "una entrada con vega lite",
+        
+        description: "así es como se vería el código vega lite incluido en una entrada",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/vega-lite.es/";
+          
+        },
       },{id: "post-a-post-with-geojson",
         
           title: "a post with geojson",
@@ -191,6 +290,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2024/geojson-map/";
+          
+        },
+      },{id: "post-una-entrada-con-geojson",
+        
+          title: "una entrada con geojson",
+        
+        description: "así es como se vería el código geojson incluido en una entrada",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/geojson-map.es/";
           
         },
       },{id: "post-a-post-with-echarts",
@@ -204,6 +314,17 @@ ninja.data = [{
             window.location.href = "/blog/2024/echarts/";
           
         },
+      },{id: "post-una-entrada-con-echarts",
+        
+          title: "una entrada con echarts",
+        
+        description: "así es como se vería el código echarts incluido en una entrada",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/echarts.es/";
+          
+        },
       },{id: "post-a-post-with-chart-js",
         
           title: "a post with chart.js",
@@ -213,6 +334,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2024/chartjs/";
+          
+        },
+      },{id: "post-una-entrada-con-chart-js",
+        
+          title: "una entrada con chart.js",
+        
+        description: "así es como se vería el código chart.js incluido en una entrada",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/chartjs.es/";
           
         },
       },{id: "post-a-post-with-tikzjax",
@@ -226,6 +358,17 @@ ninja.data = [{
             window.location.href = "/blog/2023/tikzjax/";
           
         },
+      },{id: "post-una-entrada-con-tikzjax",
+        
+          title: "una entrada con TikZJax",
+        
+        description: "así es como se vería el código TikZ incluido en una entrada",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/tikzjax.es/";
+          
+        },
       },{id: "post-a-post-with-bibliography",
         
           title: "a post with bibliography",
@@ -235,6 +378,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2023/post-bibliography/";
+          
+        },
+      },{id: "post-una-entrada-con-bibliografía",
+        
+          title: "una entrada con bibliografía",
+        
+        description: "un ejemplo de una entrada de blog con bibliografía",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/post-bibliography.es/";
           
         },
       },{id: "post-a-post-with-jupyter-notebook",
@@ -248,6 +402,17 @@ ninja.data = [{
             window.location.href = "/blog/2023/jupyter-notebook/";
           
         },
+      },{id: "post-una-entrada-con-notebook-de-jupyter",
+        
+          title: "una entrada con notebook de Jupyter",
+        
+        description: "un ejemplo de una entrada de blog con notebook de Jupyter",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/jupyter-notebook.es/";
+          
+        },
       },{id: "post-a-post-with-custom-blockquotes",
         
           title: "a post with custom blockquotes",
@@ -257,6 +422,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2023/custom-blockquotes/";
+          
+        },
+      },{id: "post-una-entrada-con-citas-personalizadas",
+        
+          title: "una entrada con citas personalizadas",
+        
+        description: "un ejemplo de una entrada de blog con citas personalizadas",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/custom-blockquotes.es/";
           
         },
       },{id: "post-a-post-with-table-of-contents-on-a-sidebar",
@@ -270,6 +446,17 @@ ninja.data = [{
             window.location.href = "/blog/2023/sidebar-table-of-contents/";
           
         },
+      },{id: "post-una-entrada-con-tabla-de-contenidos-en-la-barra-lateral",
+        
+          title: "una entrada con tabla de contenidos en la barra lateral",
+        
+        description: "un ejemplo de una entrada de blog con tabla de contenidos en la barra lateral",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/sidebar-table-of-contents.es/";
+          
+        },
       },{id: "post-a-post-with-audios",
         
           title: "a post with audios",
@@ -279,6 +466,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2023/audios/";
+          
+        },
+      },{id: "post-una-entrada-con-audios",
+        
+          title: "una entrada con audios",
+        
+        description: "así es como se verían los audios incluidos en una entrada",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/audios.es/";
           
         },
       },{id: "post-a-post-with-videos",
@@ -292,6 +490,17 @@ ninja.data = [{
             window.location.href = "/blog/2023/videos/";
           
         },
+      },{id: "post-una-entrada-con-videos",
+        
+          title: "una entrada con videos",
+        
+        description: "así es como se verían los videos incluidos en una entrada",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/videos.es/";
+          
+        },
       },{id: "post-displaying-beautiful-tables-with-bootstrap-tables",
         
           title: "displaying beautiful tables with Bootstrap Tables",
@@ -301,6 +510,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2023/tables/";
+          
+        },
+      },{id: "post-mostrando-tablas-hermosas-con-bootstrap-tables",
+        
+          title: "mostrando tablas hermosas con Bootstrap Tables",
+        
+        description: "un ejemplo de cómo usar Bootstrap Tables",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/tables.es/";
           
         },
       },{id: "post-a-post-with-table-of-contents",
@@ -314,6 +534,17 @@ ninja.data = [{
             window.location.href = "/blog/2023/table-of-contents/";
           
         },
+      },{id: "post-una-entrada-con-tabla-de-contenidos",
+        
+          title: "una entrada con tabla de contenidos",
+        
+        description: "un ejemplo de una entrada de blog con tabla de contenidos",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/table-of-contents.es/";
+          
+        },
       },{id: "post-a-post-with-giscus-comments",
         
           title: "a post with giscus comments",
@@ -323,6 +554,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2022/giscus-comments/";
+          
+        },
+      },{id: "post-una-entrada-con-comentarios-de-giscus",
+        
+          title: "una entrada con comentarios de Giscus",
+        
+        description: "un ejemplo de una entrada de blog con comentarios de Giscus",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2022/giscus-comments.es/";
           
         },
       },{id: "post-displaying-external-posts-on-your-al-folio-blog",
@@ -347,6 +589,17 @@ ninja.data = [{
             window.location.href = "/assets/pdf/example_pdf.pdf";
           
         },
+      },{id: "post-una-entrada-con-redirección",
+        
+          title: "una entrada con redirección",
+        
+        description: "también puedes redirigir a recursos como pdf",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/assets/pdf/example_pdf.pdf";
+          
+        },
       },{id: "post-a-post-with-diagrams",
         
           title: "a post with diagrams",
@@ -356,6 +609,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2021/diagrams/";
+          
+        },
+      },{id: "post-una-entrada-con-diagramas",
+        
+          title: "una entrada con diagramas",
+        
+        description: "un ejemplo de una entrada de blog con diagramas",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2021/diagrams.es/";
           
         },
       },{id: "post-a-distill-style-blog-post",
@@ -369,6 +633,17 @@ ninja.data = [{
             window.location.href = "/blog/2021/distill/";
           
         },
+      },{id: "post-una-entrada-de-blog-estilo-distill",
+        
+          title: "una entrada de blog estilo distill",
+        
+        description: "un ejemplo de una entrada de blog estilo distill y elementos principales",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2021/distill.es/";
+          
+        },
       },{id: "post-a-post-with-twitter",
         
           title: "a post with twitter",
@@ -378,6 +653,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2020/twitter/";
+          
+        },
+      },{id: "post-una-entrada-con-twitter",
+        
+          title: "una entrada con twitter",
+        
+        description: "un ejemplo de una entrada de blog con twitter",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2020/twitter.es/";
           
         },
       },{id: "post-a-post-with-disqus-comments",
@@ -391,6 +677,17 @@ ninja.data = [{
             window.location.href = "/blog/2015/disqus-comments/";
           
         },
+      },{id: "post-una-entrada-con-comentarios-de-disqus",
+        
+          title: "una entrada con comentarios de Disqus",
+        
+        description: "un ejemplo de una entrada de blog con comentarios de Disqus",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/disqus-comments.es/";
+          
+        },
       },{id: "post-a-post-with-math",
         
           title: "a post with math",
@@ -400,6 +697,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2015/math/";
+          
+        },
+      },{id: "post-una-entrada-con-matemáticas",
+        
+          title: "una entrada con matemáticas",
+        
+        description: "un ejemplo de una entrada de blog con algo de matemáticas",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/math.es/";
           
         },
       },{id: "post-a-post-with-code",
@@ -413,6 +721,17 @@ ninja.data = [{
             window.location.href = "/blog/2015/code/";
           
         },
+      },{id: "post-a-post-with-code",
+        
+          title: "a post with code",
+        
+        description: "an example of a blog post with some code",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/code.es/";
+          
+        },
       },{id: "post-a-post-with-images",
         
           title: "a post with images",
@@ -422,6 +741,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2015/images/";
+          
+        },
+      },{id: "post-una-entrada-con-imágenes",
+        
+          title: "una entrada con imágenes",
+        
+        description: "así es como se verían las imágenes incluidas en una entrada",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/images.es/";
           
         },
       },{id: "post-a-post-with-formatting-and-links",
@@ -435,27 +765,59 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
+      },{id: "post-a-post-with-formatting-and-links",
+        
+          title: "a post with formatting and links",
+        
+        description: "march &amp; april, looking forward to summer",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/formatting-and-links.es/";
+          
+        },
       },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
+            },},{id: "news-",
+          title: '',
+          description: "",
+          section: "News",},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
           section: "News",},{id: "news-a-long-announcement-with-details",
           title: 'A long announcement with details',
           description: "",
           section: "News",handler: () => {
+              window.location.href = "/news/announcement_2.es/";
+            },},{id: "news-a-long-announcement-with-details",
+          title: 'A long announcement with details',
+          description: "",
+          section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
+            },},{id: "news-",
+          title: '',
+          description: "",
+          section: "News",},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
+              window.location.href = "/projects/1_project.es/";
+            },},{id: "projects-project-1",
+          title: 'project 1',
+          description: "with background image",
+          section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
+            },},{id: "projects-project-2",
+          title: 'project 2',
+          description: "a project with a background image and giscus comments",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_project.es/";
             },},{id: "projects-project-2",
           title: 'project 2',
           description: "a project with a background image and giscus comments",
@@ -465,7 +827,17 @@ ninja.data = [{
           title: 'project 3 with very long name',
           description: "a project that redirects to another website",
           section: "Projects",handler: () => {
+              window.location.href = "/projects/3_project.es/";
+            },},{id: "projects-project-3-with-very-long-name",
+          title: 'project 3 with very long name',
+          description: "a project that redirects to another website",
+          section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
+            },},{id: "projects-project-4",
+          title: 'project 4',
+          description: "another without an image",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_project.es/";
             },},{id: "projects-project-4",
           title: 'project 4',
           description: "another without an image",
@@ -475,7 +847,17 @@ ninja.data = [{
           title: 'project 5',
           description: "a project with a background image",
           section: "Projects",handler: () => {
+              window.location.href = "/projects/5_project.es/";
+            },},{id: "projects-project-5",
+          title: 'project 5',
+          description: "a project with a background image",
+          section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
+            },},{id: "projects-project-6",
+          title: 'project 6',
+          description: "a project with no image",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6_project.es/";
             },},{id: "projects-project-6",
           title: 'project 6',
           description: "a project with no image",
@@ -485,12 +867,27 @@ ninja.data = [{
           title: 'project 7',
           description: "with background image",
           section: "Projects",handler: () => {
+              window.location.href = "/projects/7_project.es/";
+            },},{id: "projects-project-7",
+          title: 'project 7',
+          description: "with background image",
+          section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
             },},{id: "projects-project-8",
           title: 'project 8',
           description: "an other project with a background image and giscus comments",
           section: "Projects",handler: () => {
+              window.location.href = "/projects/8_project.es/";
+            },},{id: "projects-project-8",
+          title: 'project 8',
+          description: "an other project with a background image and giscus comments",
+          section: "Projects",handler: () => {
               window.location.href = "/projects/8_project/";
+            },},{id: "projects-project-9",
+          title: 'project 9',
+          description: "another project with an image 🎉",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/9_project.es/";
             },},{id: "projects-project-9",
           title: 'project 9',
           description: "another project with an image 🎉",
